@@ -1,9 +1,6 @@
 --Trigger1: As soon as a film receives its 100th rating, it should be included in the table dbpXXX.frequentRatedMovies with the specified attributes.
 
 
-
-
-
 CREATE TRIGGER dbp025.trigger1
 AFTER UPDATE OF votes ON ratings
 REFERENCING NEW AS neu
